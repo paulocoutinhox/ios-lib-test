@@ -6,4 +6,5 @@ xcode_destination: platform=iOS Simulator,OS=13.2.2,name=iPhone 8
 before_install:
 - make clean
 - make build
+- make install
 - make test
