@@ -7,5 +7,6 @@ before_install:
 - make clean
 - make build
 - make install
+install:
 - xcodebuild -project projects/LibTest/LibTest.xcodeproj -list
 - make test
