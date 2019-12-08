@@ -1,7 +1,7 @@
 language: objective-c
 osx_image: xcode11.2
 xcode_project: projects/LibTest/LibTest.xcodeproj
-xcode_scheme: LibTestTests
+xcode_scheme: LibTest
 xcode_destination: platform=iOS Simulator,OS=13.2.2,name=iPhone 8
 before_install:
 - make clean
