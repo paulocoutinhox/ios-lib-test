@@ -8,4 +8,3 @@ before_install:
 - make build
 - make install
 - xcodebuild -project projects/LibTest/LibTest.xcodeproj -list
-- make test
