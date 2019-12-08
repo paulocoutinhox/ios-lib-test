@@ -27,3 +27,6 @@ DerivedData/
 Carthage
 Pods
 Podfile.lock
+
+# Custom
+/out

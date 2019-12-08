@@ -376,7 +376,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../library/build/lib/$(CONFIGURATION)";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../out/$(CONFIGURATION)/lib";
 				MARKETING_VERSION = 1.0.0;
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = "-lcpp_lib_test";
@@ -399,7 +399,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../library/build/lib/$(CONFIGURATION)";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../out/$(CONFIGURATION)/lib";
 				MARKETING_VERSION = 1.0.0;
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = "-lcpp_lib_test";
@@ -423,7 +423,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../library/build/lib/$(CONFIGURATION)";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../out/$(CONFIGURATION)/lib";
 				OTHER_LDFLAGS = "-lcpp_lib_test";
 				PRODUCT_BUNDLE_IDENTIFIER = com.prsolucoes.LibTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,7 +446,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../library/build/lib/$(CONFIGURATION)";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../out/$(CONFIGURATION)/lib";
 				OTHER_LDFLAGS = "-lcpp_lib_test";
 				PRODUCT_BUNDLE_IDENTIFIER = com.prsolucoes.LibTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -9,5 +9,6 @@ You compile and test it execute:
 ```
 make clean
 make build
+make install
 make test
 ```
