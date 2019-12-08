@@ -66,7 +66,7 @@ install:
 	lipo -info out/Release/lib/libcpp_lib_test.a
 
 test:
-	cd projects/LibTest && \
+    cd projects/LibTest && \
 	  xcodebuild \
 		-project LibTest.xcodeproj \
 		-scheme LibTestTests \
