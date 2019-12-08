@@ -66,10 +66,11 @@ install:
 	lipo -info out/Release/lib/libcpp_lib_test.a
 
 test:
-    cd projects/LibTest && \
-	  xcodebuild \
+	cd projects/LibTest && \
+		xcodebuild \
 		-project LibTest.xcodeproj \
-		-scheme LibTestTests \
+		-scheme LibTest \
 		-sdk iphonesimulator \
 		-destination 'platform=iOS Simulator,name=iPhone 8' \
 		test
+		
